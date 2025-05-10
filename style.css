@@ -1,12 +1,53 @@
-h1{
-    color:rgb(255, 115, 0)
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1.text-red {
+    color:red;
 }
 
+h1{
+    color:blue !important;
+}
+
+#btn{
+    background-color: green;
+}
 p{
     color:rgb(55, 0, 255)
 }
 
 div{
 
-    color:blueviolet
+    color:black;
+}
+
+body{
+    background-color: aqua;
+}
+img{
+    margin:30px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin:20px;
+    color:aliceblue;
+    padding: 20px;
+border:5px solid red;
+font-size: 20px;
+
+}
+
+button{
+    margin:30px;
+    width: 100px;
+    height:80px;
+}
+
+input{
+    margin:10px;
 }
